@@ -41,10 +41,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 logEntry.textContent = `✅ You have completed the task ${taskName} at ${currentTime}.`;
                 activityLog.prepend(logEntry);
 
-                alert('Congratulations! This task is completed!');
+                alert('Dashboard updated Successfully!');
 
                 if (tasksAssigned === 0) {
-                    alert('All tasks are completed! Great job!');
+                    alert('Congratulation! All the current tasks are completed! Great job!');
                 }
             }
         });
